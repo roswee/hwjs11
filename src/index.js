@@ -8,7 +8,7 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 const input = document.querySelector('input');
 const loadMoreBtn = document.querySelector('.load-more');
 const form = document.querySelector('form');
-
+let lightbox;
 let page;
 let query;
 form.addEventListener('submit', searchFn);
