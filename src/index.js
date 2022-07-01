@@ -10,6 +10,7 @@ const loadMoreBtn = document.querySelector('.load-more');
 const form = document.querySelector('form');
 
 let page;
+let query;
 form.addEventListener('submit', searchFn);
 loadMoreBtn.addEventListener('click', loadMore);
 
@@ -92,3 +93,5 @@ function smoothScroll() {
       behavior: 'smooth',
     });
   }
+
+  hide();

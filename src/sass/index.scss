@@ -11,6 +11,10 @@ body {
     align-items: center;
 }
 
+.is-hidden {
+    visibility: hidden;
+}
+
 
 #search-form {
     display: flex;
